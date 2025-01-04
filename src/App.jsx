@@ -3,7 +3,7 @@ import Todo from "./components/Todo";
 import { Moon, Sun, CheckCircle2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-function Appp() {
+function App() {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
